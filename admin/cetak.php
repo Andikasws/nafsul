@@ -59,7 +59,7 @@ $pdf->SetFont('Times','',10);
 $pdf->ln();
  
 //koneksi ke database
-$mysqli = new mysqli("localhost","root","","pengaduan_masyarakat");
+$mysqli = new mysqli("localhost","root","","nafsul");
 $no = 1;
 $tampil = mysqli_query($mysqli, "SELECT * FROM registrasi");
 
